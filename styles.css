@@ -12,6 +12,10 @@ header
     border-bottom-right-radius: 1rem;
     padding-top: 1rem;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
 }
 header img
 {
@@ -28,7 +32,7 @@ header img
 #TextArea textarea
 {
     width: 600px;
-    height: 175px;
+    height: 150px;
     display: block;
     margin: auto;
     border:1px solid black;
@@ -54,7 +58,7 @@ button
 {
     border: 1px solid black;
     width:600px;
-    height: 175px;
+    height: 150px;
     margin: auto;
 }
 
@@ -69,7 +73,14 @@ footer
     position: absolute;
     bottom: 0;
     left: 0;
+    height: 4rem;
     width: 100%;
+    font-family: sans-serif;
+}
+
+footer #about
+{
+    padding-bottom:4px;
 }
 
 
