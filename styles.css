@@ -1,0 +1,76 @@
+
+body
+{
+    margin: 0px;
+    overflow-x: hidden;
+}
+header
+{
+    text-align: center;
+    background-color: #FFD55E;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+header img
+{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    max-width: 100px;
+    min-height: 60px;
+}
+#TextArea
+{
+    padding-top:3rem;
+}
+#TextArea textarea
+{
+    width: 600px;
+    height: 175px;
+    display: block;
+    margin: auto;
+    border:1px solid black;
+}
+
+button
+{
+    display: block;
+    margin: auto;
+    padding:2rem,1rem ;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #FFD55E;
+}
+#translate-text
+{
+    text-align: center;
+    position: relative;
+    left: -189px;
+    padding: 1rem;
+}
+#Minion-Text
+{
+    border: 1px solid black;
+    width:600px;
+    height: 175px;
+    margin: auto;
+}
+
+
+footer
+{
+    background-color: #FFD55E;
+    text-align: center;
+    padding-top:1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
