@@ -1,23 +1,29 @@
 
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body
 {
-    margin: 0px;
-    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
 }
-header
+
+/* Header */
+nav
 {
     text-align: center;
     background-color: #FFD55E;
     border-bottom-left-radius:1rem ;
     border-bottom-right-radius: 1rem;
     padding-top: 1rem;
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 18px;
+    
 }
-header img
+nav img
 {
     display: block;
     margin: auto;
@@ -25,14 +31,24 @@ header img
     max-width: 100px;
     min-height: 60px;
 }
+
+/* Main */
+main
+{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+/* Textbox */
 #TextArea
 {
     padding-top:3rem;
 }
 #TextArea textarea
 {
-    width: 600px;
-    height: 150px;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
     display: block;
     margin: auto;
     border:1px solid black;
@@ -50,15 +66,15 @@ button
 #translate-text
 {
     text-align: center;
-    position: relative;
-    left: -189px;
     padding: 1rem;
 }
 #Minion-Text
 {
     border: 1px solid black;
-    width:600px;
-    height: 150px;
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    overflow: auto;
     margin: auto;
 }
 
@@ -67,20 +83,23 @@ footer
 {
     background-color: #FFD55E;
     text-align: center;
-    padding-top:1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
-    height: 4rem;
     width: 100%;
-    font-family: sans-serif;
 }
 
 footer #about
 {
     padding-bottom:4px;
+}
+
+footer p
+{
+    margin: auto;
+    max-width: 600px;
 }
 
 
