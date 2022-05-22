@@ -72,8 +72,8 @@ button
 {
     border: 1px solid black;
     width: 100%;
-    min-height: 100px;
-    max-height: 100px;
+    min-height:10vh;
+    max-height:20vh;
     overflow: auto;
     margin: auto;
 }
